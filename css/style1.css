@@ -1,5 +1,12 @@
+body {
+   background: url("../css/images/bg.jpg") no-repeat;
+
+}
+
 .tittle {
    text-align: center;
+   font-family: Gotham Pro Light;
+   color:#ecdf89;;
 }
 
 
@@ -13,28 +20,27 @@
 
 .buttons {
    display: flex;
-
-
 }
 
 
 .btn {
    display: inline;
    vertical-align: top;
-   border: black 3px solid;
+   border: white 2px solid;
    padding: 8px 10px;
-   color: black;
+   color: white;
    font-size: 25px;
    font-weight: 700;
    text-align: center;
    text-decoration: none ;
    flex: 1 1 0;
    margin-left: 10px;
+   font-family: Gotham Pro Light;
 
 }
 
 .btn:hover {
-   color: white ;
-   background-color:cornflowerblue;
+   color: #ecdf89;
+  
 
 }
