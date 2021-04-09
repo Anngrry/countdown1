@@ -62,10 +62,10 @@ $('.menu_link_btn').on('click', function(e){
     }
     
     var today = new Date();
-    var weekday = today.getUTCDay();
+    var weekday = today.getUTCDay(); // присваивание переменной weekday значение сегодняшнего дня (0-вск, и тд)
 
-    if (weekday==5) {
-      countdown (''); // отсчет на 3 дня
+    if (weekday==5) { 
+      countdown (''); // отсчет на 3 дня (???)
     }
 
     
