@@ -29,7 +29,7 @@ $('.menu_link_btn').on('click', function(e){
     
       timer = setInterval(calculate, 1000); // повтор через 1 с
     
-      function calculate() {  // вывод
+      function calculate() {  
         var dateStart = new Date();
         var dateStart = new Date(dateStart.getUTCFullYear(),
           dateStart.getUTCMonth(),
@@ -39,7 +39,7 @@ $('.menu_link_btn').on('click', function(e){
           dateStart.getUTCSeconds());
         var timeRemaining = parseInt((dateEnd - dateStart.getTime()) / 1000)
     
-        if (timeRemaining >= 0) {
+        if (timeRemaining >= 0) { // вывод
           days = parseInt(timeRemaining / 86400);
           timeRemaining = (timeRemaining % 86400);
           hours = parseInt(timeRemaining / 3600);
