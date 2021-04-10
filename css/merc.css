@@ -372,7 +372,7 @@ margin-top: 20px;
  }
 
  .time-selection {
-	border-right: 39px #ffffff70 dotted;
+	border-right: 2px #ffffff70 solid;
 
  }
 
@@ -417,10 +417,4 @@ margin-top: 20px;
    color: #ecdf89;
 	text-shadow: 0 0 2px #fdee8e;
 
-}
-
-@media screen and (max-width: 768px) {
-	.time-selection {
-		border-right: 48px #ffffff70 dotted;
-	 } 
 }
