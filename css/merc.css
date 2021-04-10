@@ -421,7 +421,7 @@ margin-top: 20px;
 
 @media screen and (max-width: 768px) {
 	.time-selection {
-		border-right: 45px #ffffff70 dotted;
+		border-right: 48px #ffffff70 dotted;
 	 } 
 
 	 .container {
@@ -433,8 +433,17 @@ margin-top: 20px;
 	 }
 
 	 .count {
-		font-size: 150px;
+		font-size: 100px;
 	}
 	
+     .intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	max-width: 800px;
+	
+	
+	}
 
 }
