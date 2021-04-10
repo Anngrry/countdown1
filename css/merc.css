@@ -233,6 +233,7 @@ header {
 .menu_btn_active {
 	transform: translate(100px);
 }
+
 @media (max-width: 1450px){
 	.logo{
 		transform: scale(0.9);
@@ -420,9 +421,16 @@ margin-top: 20px;
 
 @media screen and (max-width: 768px) {
 	.time-selection {
-		border-right: 39px #ffffff70 dotted;
-	
+		border-right: 45px #ffffff70 dotted;
 	 } 
+
+	 .container {
+		max-width: 800px;
+		margin: 0 auto;
+		display: flex;
+		align-content: center;
+	 
+	 }
 
 	 .count {
 		font-size: 150px;
