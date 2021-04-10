@@ -20,7 +20,7 @@
    body {
       margin: 0;
       line-height: 1.6;
-      background: url("../css/images/bg.jpg") no-repeat;
+      background: url("../css/images/bg.jpg");
       overflow: hidden;
       position: fixed;
       top: 0;

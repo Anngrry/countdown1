@@ -60,13 +60,10 @@ $('.menu_link_btn').on('click', function(e){
     
       function display(days, hours, minutes, seconds) {}
     }
-    
-    var today = new Date();
-    var weekday = today.getUTCDay(); // присваивание переменной weekday значение сегодняшнего дня (0-вск, и тд)
-
-    if (weekday==5) { 
-      countdown (''); // отсчет на 3 дня (???)
-    }
+ 
+   
+      countdown ('12/02/2021 05:32:17 AM'); 
+   
 
     
     
