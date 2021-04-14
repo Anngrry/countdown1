@@ -326,9 +326,27 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 width: 100%;
+}
+
+@media (min-width: 900px) and (max-width: 1320px) {
+
+ .intro {
+
+
+ }
+
+ .intro__inner {
+
+ }
+
+.countdown {
 
 
 }
+
+
+}
+
 
 .intro__inner {
 width: 100%;
@@ -354,7 +372,7 @@ font-weight: 100;
 color:white ;
 line-height: 1;
 font-family: Gotham Pro Light;
-margin-bottom: 70px;
+margin-bottom: 50px;
 margin-top: 20px;
 }
 
@@ -392,7 +410,7 @@ margin-top: 20px;
 .button {
     max-width: 405px;
     margin: 0 auto;
-	margin-top: 150px;
+	margin-top: 90px;
     justify-self: flex-end;
 } 
 
